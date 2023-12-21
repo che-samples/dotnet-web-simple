@@ -19,6 +19,7 @@ components:
       endpoints:
         - name: http-dotnet60
           targetPort: 8080
+          protocol: https
       volumeMounts:
         - name: nuget
           path: /home/user/.nuget
