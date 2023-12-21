@@ -17,7 +17,7 @@ components:
         - name: ASPNETCORE_URLS
           value: http://*:8080
       endpoints:
-        - name: http-dotnet60
+        - name: https-dotnet60
           targetPort: 8080
           protocol: https
       volumeMounts:
